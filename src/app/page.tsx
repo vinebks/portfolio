@@ -1,3 +1,4 @@
+"use client";
 import styled from "styled-components";
 import { HeaderApp } from "../components/header";
 import { FooterApp } from "../components/footer";
