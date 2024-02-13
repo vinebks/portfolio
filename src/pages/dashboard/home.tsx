@@ -12,24 +12,21 @@ const HomeContent = styled.div`
   justify-content: center;
   overflow: hidden;
   overflow-y: auto;
+  background-color: ${testPalletColors.firstColor};
 
   @media (min-width: 346px) {
-    background-color: ${testPalletColors.fourthColor};
     flex-direction: column;
   }
 
   @media (min-width: 768px) {
-    background-color: ${testPalletColors.thirdColor};
     flex-direction: column;
   }
 
   @media (min-width: 1024px) {
-    background-color: ${testPalletColors.secondColor};
     flex-direction: row;
   }
 
   @media (min-width: 1280px) {
-    background-color: ${testPalletColors.firstColor};
     flex-direction: row;
   }
 `;

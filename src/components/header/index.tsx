@@ -4,7 +4,7 @@ import MenuBar from "../menu-bar";
 
 const HeaderStyle = styled.div`
   display: flex;
-  background-color: ${testPalletColors.secondColor};
+  background-color: ${testPalletColors.firstColor};
   height: 100vh;
   max-width: 5vw;
   align-items: start;
