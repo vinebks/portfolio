@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import MenuBarButton, { RoutesEnum } from "./butons";
 import IconsComponent from "./icons";
 
 const MenuBarStyle = styled.div`
@@ -11,11 +10,6 @@ const MenuBarStyle = styled.div`
 `;
 
 const MenuBar = () => {
-  const buttonList: Array<keyof typeof RoutesEnum> = [
-    "Página Inicial",
-    "Carreira",
-  ];
-
   return (
     <MenuBarStyle>
       <IconsComponent />

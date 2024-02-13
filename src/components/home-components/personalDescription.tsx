@@ -10,6 +10,22 @@ const HomeDescriptionComponentStyle = styled.div`
   border-radius: 10px;
   align-items: center;
   box-shadow: 0px 20px 100px 5px rgba(0, 0, 0, 0.3);
+
+  @media (min-width: 346px) {
+    width: 80%;
+  }
+
+  @media (min-width: 768px) {
+    width: 70%;
+  }
+
+  @media (min-width: 1024px) {
+    width: 60%;
+  }
+
+  @media (min-width: 1280px) {
+    width: 50%;
+  }
 `;
 
 const HomeDescriptionTitle = styled.div`
@@ -30,14 +46,45 @@ const HomeDescriptionContext = styled.div`
 
 const HomeTitleText = styled.text`
   font-size: 2.5vw;
-  color: ${testPalletColors.textButtonsColor};
+  color: white;
+
+  @media (min-width: 346px) {
+    font-size: 5.5vw;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 4.5vw;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 3.5vw;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 2.5vw;
+  }
 `;
 
 const HomeDescriptionText = styled.text`
   margin: 10px;
   font-size: 1.2vw;
-  font-space: 2px;
   color: white;
+
+  @media (min-width: 346px) {
+    font-size: 4.2vw;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 3.2vw;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 2.2vw;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: 1.2vw;
+  }
 `;
 
 const HomeDescriptionComponent = () => {
