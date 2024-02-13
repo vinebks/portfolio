@@ -95,13 +95,17 @@ const HomeDescriptionComponent = () => {
       </HomeDescriptionTitle>
       <HomeDescriptionContext>
         <HomeDescriptionText>
-          Com quatro anos de experiência em desenvolvimento de software, aprendi
-          muito e cresci. De estagiário a desenvolvedor de software de nível
-          médio, trabalhei com JavaScript, ReactJs, NodeJs, Sequelize ORM e
-          muito mais. Ampliei minhas habilidades para incluir NestJs, RabbitMQ,
-          AWS, TypeScript, MongoDB, Docker e Jest. E tive experiência em
-          projetos Web com pilha JavaScript. Gosto de pensar que me desenvolver
-          enquanto resolvo problemas.
+          Meu nome Vinícius. Trabalho á quatro anos como Desenvolvedor, comecei
+          como estagiário e consegui alcançar o cargo de Desenvolvedor Pleno.
+          <p />
+          Durante a maior parte da minha carreira trabalhei a maior parte com
+          ferramentas da stack de JavaScript algumas delas são{" "}
+          <b>TypeScript, NodeJs, ReactJs, Express, NestJs</b>. Participei de
+          varios projetos em sua maioria front-end integrado com back-end. Mas
+          meu ❤️ é Back-end.
+          <p />
+          Hoje continuo buscando cada vez mais conhecimento pelos locais por
+          onde passo, e tento aplicar tudo que aprendi pelo caminho.
         </HomeDescriptionText>
       </HomeDescriptionContext>
     </HomeDescriptionComponentStyle>
