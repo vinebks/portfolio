@@ -1,19 +1,25 @@
 import styled from "styled-components";
 import { testPalletColors } from "../../../public/color-pallete";
-import { MenuBar } from "../menu-bar/menuBarComponent";
+import MenuBar from "../menu-bar";
 
-export const HeaderApp = styled.div`
+const HeaderStyle = styled.div`
+  position: fixed;
   display: flex;
   background-color: ${testPalletColors.secondColor};
-  height: 8vh;
-  align-items: center;
-  justify-content: center;
+  height: 100vh;
+  width: 6vw;
+  max-width: 100px;
+  align-items: start;
+  flex: 1;
+  box-shadow: 0px 20px 40px 40px rgba(0, 0, 0, 0.5);
 `;
 
-export const HeaderAppComponent = () => {
+const Header = () => {
   return (
-    <HeaderApp>
+    <HeaderStyle>
       <MenuBar />
-    </HeaderApp>
+    </HeaderStyle>
   );
 };
+
+export default Header;

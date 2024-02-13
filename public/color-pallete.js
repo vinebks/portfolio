@@ -17,4 +17,5 @@ export const testPalletColors = {
   secondColor: "#4f3b78",
   thirdColor: "#927fbf",
   fourthColor: "#c4bbf0",
+  textButtonsColor: "#66FF54",
 };
