@@ -71,19 +71,19 @@ const HomeDescriptionText = styled.text`
   color: white;
 
   @media (min-width: 346px) {
-    font-size: 4.2vw;
+    font-size: 3.5vw;
   }
 
   @media (min-width: 768px) {
-    font-size: 3.2vw;
+    font-size: 2.5vw;
   }
 
   @media (min-width: 1024px) {
-    font-size: 2.2vw;
+    font-size: 2vw;
   }
 
   @media (min-width: 1280px) {
-    font-size: 1.2vw;
+    font-size: 1.5vw;
   }
 `;
 
