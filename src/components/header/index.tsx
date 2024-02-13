@@ -1,16 +1,19 @@
 import styled from "styled-components";
-import {
-  darkColorPallete,
-  lightColorPallete,
-} from "../../../public/color-pallete";
+import { testPalletColors } from "../../../public/color-pallete";
+import { MenuBar } from "../menu-bar/menuBarComponent";
 
-interface IHeader {
-  darkMode: boolean;
-}
-
-export const HeaderApp = styled.div<IHeader>`
-  background: ${(props) =>
-    props.darkMode ? lightColorPallete.primary : darkColorPallete.primary};
-  color: white;
-  height: 200px;
+export const HeaderApp = styled.div`
+  display: flex;
+  background-color: ${testPalletColors.secondColor};
+  height: 8vh;
+  align-items: center;
+  justify-content: center;
 `;
+
+export const HeaderAppComponent = () => {
+  return (
+    <HeaderApp>
+      <MenuBar />
+    </HeaderApp>
+  );
+};

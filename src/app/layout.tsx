@@ -1,7 +1,6 @@
 "use client";
 import StyledComponentsRegistry from "../../lib/registry";
-import App from "./page";
-
+import Home from "../pages/home";
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -11,7 +10,7 @@ export default function RootLayout({
     <html lang="en">
       <body style={{ margin: "0px" }}>
         <StyledComponentsRegistry>
-          <App />
+          <Home />
         </StyledComponentsRegistry>
       </body>
     </html>

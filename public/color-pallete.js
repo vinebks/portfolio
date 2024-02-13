@@ -11,3 +11,10 @@ export const lightColorPallete = {
   buttonPrimary: "#D3C8AA",
   buttonSecondary: "#D3C8AA",
 };
+
+export const testPalletColors = {
+  firstColor: "#363b4e",
+  secondColor: "#4f3b78",
+  thirdColor: "#927fbf",
+  fourthColor: "#c4bbf0",
+};
